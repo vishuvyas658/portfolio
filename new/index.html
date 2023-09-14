@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vidit-developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="index.css" href="index.css">
+  <style>
+    *{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(1, 1, 17);
+        color:white;
+        font-family: auto;
+    }
+    
+    nav {display:flex;
+        justify-content:space-around;
+        align-items:center;
+        height:80px;;
+        background-color: rgb(9, 9, 70);
+    }
+    nav .left{
+        font-size:25px;
+    }
+   nav ul{display:flex;
+    justify-content:center;
+ }
+ nav ul li a{
+        text-decoration: none;
+        margin:0 23px;
+        color:white;
+    }
+    nav ul li a:hover{
+          color:rgb(103, 103, 240);
+    }
+   
+    .firstsection{
+        display:flex;
+        justify-content:space-around;
+        margin:auto;
+        align-items: center;
+        height:-94px;
+    }
+    .firstsection > div{
+        width:30%  }
+    .leftsection{
+         margin:120px;
+        font-size:3rem;
+        align-items: center;
+    }
+    .btn{
+        background-color: lavender;
+        font-size:20px;
+     }
+     .btn:hover{
+        color:rgb(81, 16, 160);
+     }
+    .rightsection{
+        margin:120px;
+        font-size:3rem;
+        align-items:center;
+    }
+    .purple{
+        color:blueviolet
+    }
+    #element{
+        color:blueviolet;
+    }
+
+.secondsection{justify-content: space-around;
+        max-width: 80vw;
+        margin:auto; 
+     align-items: center;
+    }
+  .secondsection>div{
+    width:30% 
+  }  
+    .secondsection h1{
+        font-size:25px;
+        height:5%;
+        margin:3rem;
+    }
+    hr{
+    margin:1px;
+} .thirdsection{
+    display:flex;
+        justify-content:space-around;
+        margin:auto;
+        align-items: center;
+ }
+ .a{
+    color:white;
+    margin:50px 0;
+ }
+footer{
+    background-color: rgb(1, 1, 46);
+    }
+.footer{
+    display:flex;
+    padding: 23px 122px;
+    justify-content:space-evenly;
+    }
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+width:223px;
+}
+footer .footer-rights{
+text-align:center;
+color:rgb(85, 84, 84);
+padding:12px }
+  </style>         
+    
+</head>
+<body>
+    <header>
+    <nav> 
+        <div class="left">VIDIT PORTFOLIO</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/">about</a></li>
+                <li><a href="/">services</a></li>
+                <li><a href="/">project</a></li>
+                <li><a href="/">home</a></li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="firstsection">
+        <div class="leftsection">Hello,My name is <span class="purple">VIDIT VYAS</span>
+            <div>and I am a passionate</div>
+           <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">visit github</button>
+        </div> 
+        </div>
+        <div class="rightsection">
+           <img src="img2.png" height=500 alt="error img is loading">
+    </section>
+    <hr>
+    <section class="secondsection">
+        <h1>Other Minor Projects</h1>
+        <hr></section>
+        <section class="thirdsection">
+     <div class="leftsection">
+        <img src="photo.png" width="600" height="350" alt="">GYM WEBSITE<br>
+</div>
+     <div class="rightsection">
+       <img src="v2.jpg" width="600" height="350" alt="">PAYMENT FORM <br>
+       <div>
+    <a href="file:///C:/Users/vidit/Desktop/complete/payment%20form.html0" rel=""></a>
+</div></div>
+    </section>
+</main>
+<!-- javascript-->
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <!-- Setup and start animation! -->
+ <script>
+   var typed = new Typed('#element', {
+     strings: ['<i>Web</i> Developer', 'Web Designer'],
+     typeSpeed: 40,
+   });
+ </script><!--javascript complete-->
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Vidit Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>contact</li>
+                
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>contact</li>
+                
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>contact</li>
+                  </ul>
+        </div>
+    </div>
+    <div class="footer-rights">
+        www.viditportfolio.com | all rights reserved
+    </div>
+</footer>
+    
+</body>
+</html>
